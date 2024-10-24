@@ -13,7 +13,7 @@ import {
 } from '@coreui/react'
 import { DocsExample } from 'src/components'
 
-import ReactImg from 'src/assets/images/react.jpg'
+import ReactImg from 'src/assets/images/harmony-logo.jpg'
 
 const Placeholders = () => {
   return (
@@ -50,7 +50,8 @@ const Placeholders = () => {
                     orientation="top"
                     width="100%"
                     height="162"
-                    xmlns="http://www.w3.org/2000/svg"
+                    // xmlns="http://www.w3.org/2000/svg"
+                    src='../../../assets/images/harmony-logo.png'
                     role="img"
                     aria-label="Placeholder"
                     preserveAspectRatio="xMidYMid slice"
